@@ -1,0 +1,67 @@
+/* Chatbox Stilleri */
+#chatbox {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+#chatbox p {
+  margin: 10px 0;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.chatbot-message {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  text-align: left;
+  margin-right: auto;
+}
+
+.user-message {
+  background-color: #d1f7c4;
+  padding: 10px;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  text-align: right;
+  margin-left: auto;
+}
+
+/* Form Stilleri */
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#user-input {
+  width: 35%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#send-btn {
+  padding: 10px 20px;
+  background-color: #4a7224;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#send-btn:hover {
+  background-color: #0056b3;
+}

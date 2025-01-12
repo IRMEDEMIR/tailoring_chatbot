@@ -1,0 +1,361 @@
+{
+    "fabrics": [
+      {
+        "name": "pamuk",
+        "description": "Pamuk, doğal bir kumaş türüdür ve nefes alabilir.",
+        "features": {
+          "texture": "yumuşak",
+          "shiny": "parlak olmayan",
+          "flexible": "esnek",
+          "weight": "hafif"
+        },
+        "suggestions": [
+        {
+          "item": "tişört",
+          "requiredMeters": 1
+        },
+        {
+          "item": "elbise",
+          "requiredMeters": 3
+        },{
+            "item": "pijama",
+            "requiredMeters": 1.5
+        },{
+            "item": "gömlek",
+            "requiredMeters": 1.5
+        }
+      ],
+        "image": "images/pamuk.jpg"
+      },
+      {
+        "name": "ipek",
+        "description": "İpek, lüks bir kumaş türüdür ve parlaktır.",
+        "features": {
+          "texture": "pürüzsüz",
+          "shiny": "parlak",
+          "flexible": "esnek olmayan",
+          "weight": "hafif"
+        },
+        "suggestions": [
+        {
+          "item": "abiye",
+          "requiredMeters": 4
+        },
+        {
+          "item": "bluz",
+          "requiredMeters": 1.5
+        },{
+            "item": "eşarp",
+            "requiredMeters": 1
+        },{
+            "item": "gömlek",
+            "requiredMeters": 1.5
+        }
+      ],
+        "image": "images/ipek.jpg"
+      },
+      {
+        "name": "keten",
+        "description": "Keten, yazlık giysiler için mükemmel bir seçimdir.",
+        "features": {
+          "texture": "sert",
+          "shiny": "parlak olmayan",
+          "flexible": "esnek olmayan",
+          "weight": "hafif"
+        },
+        "suggestions": [
+        {
+          "item": "etek",
+          "requiredMeters": 2
+        },
+        {
+          "item": "ceket",
+          "requiredMeters": 1.5
+        },{
+            "item": "pantolon",
+            "requiredMeters": 2
+        },{
+            "item": "gömlek",
+            "requiredMeters": 1.5
+        }
+      ],
+        "image": "images/keten.jpg"
+      },
+      {
+        "name": "kaşe",
+        "description": "Kaşe, kalın ve sıcak tutan bir kumaştır.",
+        "features": {
+          "texture": "yumuşak",
+          "shiny": "parlak olmayan",
+          "flexible": "esnek olmayan",
+          "weight": "ağır"
+        },
+        "suggestions": [
+        {
+          "item": "palto",
+          "requiredMeters": 4
+        },
+        {
+          "item": "mont",
+          "requiredMeters": 2
+        },{
+            "item": "kaban",
+            "requiredMeters": 3
+        },{
+          "item": "etek",
+          "requiredMeters": 2
+      }
+      ],
+        "image": "images/kase.jpg"
+      },
+      {
+        "name": "poplin",
+        "description": "Poplin, ince ve dayanıklı bir kumaş türüdür.",
+        "features": {
+          "texture": "pürüzsüz",
+          "shiny": "parlak olmayan",
+          "flexible": "esnek olmayan",
+          "weight": "hafif"
+        },
+        "suggestions": [
+        {
+          "item": "gömlek",
+          "requiredMeters": 1.5
+        },
+        {
+          "item": "elbise",
+          "requiredMeters": 3
+        },{
+            "item": "çarşaf",
+            "requiredMeters": 2.5
+        }
+      ],
+        "image": "images/poplin.jpg"
+      },
+      {
+        "name": "chanel",
+        "description": "Chanel kumaş, klasik ve zarif bir görünüme sahiptir.",
+        "features": {
+          "texture": "kabartmalı",
+          "shiny": "parlak olmayan",
+          "flexible": "esnek olmayan",
+          "weight": "orta"
+        },
+        "suggestions": [
+        {
+          "item": "ceket",
+          "requiredMeters": 1.5
+        },
+        {
+          "item": "etek",
+          "requiredMeters": 2
+        },{
+            "item": "blazer",
+            "requiredMeters": 1.5
+        }
+      ],
+        "image": "images/chanel.jpg"
+      },
+      {
+        "name": "penye",
+        "description": "Penye, hafif ve esnek bir pamuk türüdür.",
+        "features": {
+          "texture": "yumuşak",
+          "shiny": "parlak olmayan",
+          "flexible": "esnek",
+          "weight": "hafif"
+        },
+        "suggestions": [
+        {
+          "item": "tişört",
+          "requiredMeters": 1
+        },
+        {
+          "item": "pijama",
+          "requiredMeters": 1.5
+        },{
+            "item": "elbise",
+            "requiredMeters": 3
+        }
+      ],
+        "image": "images/penye.jpg"
+      },
+      {
+        "name": "üç iplik",
+        "description": "Üç iplik, kalın ve dayanıklı bir kumaş türüdür.",
+        "features": {
+          "texture": "pürüzlü",
+          "shiny": "parlak olmayan",
+          "flexible": "esnek",
+          "weight": "orta"
+        },
+        "suggestions": [
+        {
+          "item": "mont",
+          "requiredMeters": 2
+        },
+        {
+          "item": "eşofman",
+          "requiredMeters": 3
+        },{
+            "item": "sweatshirt",
+            "requiredMeters": 2
+        }
+      ],
+        "image": "images/uciplik.jpg"
+      },
+      {
+        "name": "iki iplik",
+        "description": "İki iplik, spor giysiler için ideal bir kumaş türüdür.",
+        "features": {
+          "texture": "pürüzsüz",
+          "shiny": "parlak olmayan",
+          "flexible": "esnek",
+          "weight": "hafif"
+        },
+        "suggestions": [
+        {
+          "item": "tişört",
+          "requiredMeters": 1
+        },
+        {
+          "item": "eşofman",
+          "requiredMeters": 3
+        },{
+            "item": "sweatshirt",
+            "requiredMeters": 2
+        }
+      ],
+        "image": "images/ikiiplik.jpg"
+      },
+      {
+        "name": "polar",
+        "description": "Polar, sıcak tutan ve yumuşak bir kumaştır.",
+        "features": {
+          "texture": "yumuşak",
+          "shiny": "parlak olmayan",
+          "flexible": "esnek",
+          "weight": "orta"
+        },
+        "suggestions": [
+        {
+          "item": "mont",
+          "requiredMeters": 2
+        },
+        {
+          "item": "sweatshirt",
+          "requiredMeters": 2
+        },{
+            "item": "atkı",
+            "requiredMeters": 1.5
+        }
+      ],
+        "image": "images/polar.jpg"
+      },
+      {
+        "name": "terikoton",
+        "description": "Terikoton, karışık bir kumaş olup hafif ve dayanıklıdır.",
+        "features": {
+          "texture": "pürüzsüz",
+          "shiny": "parlak olmayan",
+          "flexible": "esnek",
+          "weight": "hafif"
+        },
+        "suggestions": [
+        {
+          "item": "hemşire forması",
+          "requiredMeters": 2.5
+        },
+        {
+          "item": "gömlek",
+          "requiredMeters": 2
+        },{
+            "item": "pijama",
+            "requiredMeters": 1.5
+        }
+      ],
+        "image": "images/terikoton.jpg"
+      },
+      {
+        "name": "viskon",
+        "description": "Viskon, dökümlü ve nefes alabilir bir kumaştır.",
+        "features": {
+          "texture": "yumuşak",
+          "shiny": "parlak",
+          "flexible": "esnek",
+          "weight": "hafif"
+        },
+        "suggestions": [
+        {
+          "item": "elbiseler",
+          "requiredMeters": 2.5
+        },
+        {
+          "item": "etekler",
+          "requiredMeters": 1.5
+        },{
+            "item": "bluz",
+            "requiredMeters": 1
+        }
+      ],
+        "image": "images/viskon.jpg"
+      },
+      {
+        "name": "triko",
+        "description": "Triko, esnek ve rahat bir örgü kumaş türüdür.",
+        "features": {
+          "texture": "yumuşak",
+          "shiny": "parlak olmayan",
+          "flexible": "esnek",
+          "weight": "orta"
+        },
+        "suggestions": [
+        {
+          "item": "kazak",
+          "requiredMeters": 1.5
+        },
+        {
+          "item": "hırka",
+          "requiredMeters": 1.5
+        },{
+            "item": "elbise",
+            "requiredMeters": 3
+        },
+        {
+            "item": "atkı",
+            "requiredMeters": 1.5
+        }
+      ],
+        "image": "images/triko.jpg"
+      },
+      {
+        "name": "ribana",
+        "description": "Ribana, esnekliği ve dayanıklılığıyla bilinen bir kumaş türüdür.",
+        "features": {
+          "texture": "çizgili",
+          "shiny": "parlak olmayan",
+          "flexible": "esnek",
+          "weight": "hafif"
+        },
+        "suggestions": [
+        {
+          "item": "tişört",
+          "requiredMeters": 1
+        },
+        {
+          "item": "eşofman",
+          "requiredMeters": 1.5
+        },{
+            "item": "pijama",
+            "requiredMeters": 3
+        },
+        {
+            "item": "sweatshirt",
+            "requiredMeters": 2
+        }
+      ],
+        "image": "images/ribana.jpg"
+      }
+    ]
+  }
+  
